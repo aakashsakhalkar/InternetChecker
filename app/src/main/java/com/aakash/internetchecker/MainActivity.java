@@ -9,8 +9,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.aakash.netstatus.NetStatus;
-
  public class MainActivity extends AppCompatActivity {
      private static final String TAG = "MainActivity";
     @Override
@@ -23,14 +21,14 @@ import com.aakash.netstatus.NetStatus;
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        boolean connected = NetStatus.isConnectedToInternet(this);
-        boolean hasWiFi = NetStatus.hasWiFi(this);
-        boolean hasMobile = NetStatus.hasMobileData(this);
-        String connectionType = NetStatus.getConnectionType(this);
-
-        Log.d(TAG, "Connected: " + connected);
-        Log.d(TAG, "WiFi: " + hasWiFi);
-        Log.d(TAG, "Mobile: " + hasMobile);
-        Log.d(TAG, "Connection Type: " + connectionType);
+//        boolean connected = NetStatus.isConnectedToInternet(this);
+//        boolean hasWiFi = NetStatus.hasWiFi(this);
+//        boolean hasMobile = NetStatus.hasMobileData(this);
+//        String connectionType = NetStatus.getConnectionType(this);
+//
+//        Log.d(TAG, "Connected: " + connected);
+//        Log.d(TAG, "WiFi: " + hasWiFi);
+//        Log.d(TAG, "Mobile: " + hasMobile);
+//        Log.d(TAG, "Connection Type: " + connectionType);
     }
 }

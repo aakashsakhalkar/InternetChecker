@@ -1,4 +1,4 @@
 jdk: 17
 
 install:
-  - ./gradlew :netstatus:publishToMavenLocal
+  - ./gradlew :NetStatus:publish

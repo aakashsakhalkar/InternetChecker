@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "InternetChecker"
-include(":app")
+//include(":app")
 include(":NetStatus")
