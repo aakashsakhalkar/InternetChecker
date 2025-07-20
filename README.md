@@ -40,3 +40,62 @@ dependencyResolutionManagement {
 }
 ```
 </details>
+Step 2: Add the dependency
+Replace Tag with the latest release tag (e.g., v1.0.1).
+
+<details> <summary><strong>Groovy (app/build.gradle)</strong></summary>
+```groovy
+dependencies {
+    implementation 'com.github.aakashsakhalkar:InternetChecker:Tag'
+}
+    ```
+</details> <details> <summary><strong>Kotlin DSL (build.gradle.kts)</strong></summary>
+```kotlin 
+dependencies {
+    implementation("com.github.aakashsakhalkar:InternetChecker:Tag")
+}
+```
+</details> <details> <summary><strong>Maven</strong></summary>
+```xml
+<dependency>
+    <groupId>com.github.aakashsakhalkar</groupId>
+    <artifactId>InternetChecker</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+</details>
+🧩 Usage
+Import the class in your code:
+```java
+import com.aakash.netstatus.NetStatus;
+```
+Example
+```kotlin
+if (NetStatus.isConnectedToInternet(context)) {
+    String type = NetStatus.getConnectionType(context);
+    Log.d("Network", "Connected via " + type);
+} else {
+    Log.d("Network", "No internet connection");
+}
+```
+📘 API Reference
+Method	Description
+isConnectedToInternet(ctx)	Returns true if device has validated internet access
+hasWiFi(ctx)	Returns true if device is currently using Wi-Fi
+hasMobileData(ctx)	Returns true if device is using mobile/cellular data
+getConnectionType(ctx)	Returns "WIFI", "MOBILE", or "NONE"
+
+All methods are static and can be used directly without initialization.
+
+🛠 Requirements
+Minimum SDK: 21 (Android 5.0 Lollipop)
+
+No additional dependencies
+
+🧾 License
+MIT
+
+---
+
+This structure gives a clean developer experience — just copy, paste, and go. Let me know if you want to add a badge section, demo GIF, or sample app link.
+
