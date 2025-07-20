@@ -65,7 +65,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.github.aakashsakhalkar:InternetChecker:Tag")
+   implementation 'com.github.aakashsakhalkar:InternetChecker:v1.0.1'
 }
 ```
 </details>
