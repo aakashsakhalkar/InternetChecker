@@ -55,7 +55,7 @@ Replace `Tag` with the latest release tag (e.g., `v1.0.1`).
 
 ```groovy
 dependencies {
-    implementation 'com.github.aakashsakhalkar:InternetChecker:Tag'
+     implementation 'com.github.aakashsakhalkar:InternetChecker:v1.0.1'
 }
 ```
 </details>
