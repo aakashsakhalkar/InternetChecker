@@ -55,7 +55,7 @@ Replace `Tag` with the latest release tag (e.g., `v1.0.1`).
 
 ```groovy
 dependencies {
-     implementation 'com.github.aakashsakhalkar:InternetChecker:v1.0.1'
+    implementation 'com.github.aakashsakhalkar:InternetChecker:v1.0.1'
 }
 ```
 </details>
@@ -65,7 +65,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-   implementation 'com.github.aakashsakhalkar:InternetChecker:v1.0.1'
+    implementation("com.github.aakashsakhalkar:InternetChecker:v1.0.1")
 }
 ```
 </details>
@@ -77,7 +77,7 @@ dependencies {
 <dependency>
     <groupId>com.github.aakashsakhalkar</groupId>
     <artifactId>InternetChecker</artifactId>
-    <version>Tag</version>
+    <version>v1.0.1</version>
 </dependency>
 ```
 </details>
