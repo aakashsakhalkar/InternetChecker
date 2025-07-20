@@ -1,0 +1,1 @@
+NetStatus is a lightweight Android library that helps you check internet connectivity, detect WiFi or mobile data, and get the current connection type. Ideal for apps that need quick and reliable network status detection using Android's ConnectivityManager and NetworkCapabilities.
